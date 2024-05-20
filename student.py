@@ -11,5 +11,5 @@ def stu_list_head():
 def stu_list_fomatted(list):
     fotmatted_list = ""
     for i in range(10):
-        print(i+1,"\t",list[i+1])
+        print(f"{i+1}\t{list[i+1]}")
     return print(fotmatted_list)
