@@ -10,6 +10,6 @@ def stu_list_head():
 # 학번과 이름을 분리하여 학급명렬표를 출력하시오.
 def stu_list_fomatted(list):
     fotmatted_list = ""
-    for i in range(10):
-        print(f"{i+1}\t{list[i+1]}")
+    for key in list.keys():
+        print(f"{key}\t{list[key]}")
     return print(fotmatted_list)
