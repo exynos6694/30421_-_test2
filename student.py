@@ -11,5 +11,5 @@ def stu_list_head():
 def stu_list_fomatted(list):
     fotmatted_list = ""
     for key in list.keys():
-        print(f"{key}\t{list[key]}")
+        fotmatted_list+=f"{key}\t{list[key]}\n"
     return print(fotmatted_list)
